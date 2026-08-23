@@ -1,1 +1,0 @@
-import{u as e}from"./jsx-runtime-hL3IFHUK.js";var t=null;function n(){return t||=(async()=>{let{data:n,error:r}=await e.from(`match_reports`).select(`match_key`).eq(`voided`,!0);return r||!n?(t=null,new Set):new Set(n.map(e=>e.match_key))})(),t}function r(){t=null}async function i(e){let t=await n();return t.size===0?e:e.filter(e=>!t.has(e.match_key))}export{i as n,r as t};
