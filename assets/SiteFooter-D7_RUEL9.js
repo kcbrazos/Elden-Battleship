@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-DGqNZS-D.js";var t=e();function n(){return(0,t.jsx)(`div`,{className:`site-footer`,children:(0,t.jsx)(`span`,{className:`foot-fine`,children:`Free and open source. Unofficial fan project, not affiliated with FromSoftware or Bandai Namco.`})})}export{n as t};
