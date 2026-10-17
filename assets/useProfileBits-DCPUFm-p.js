@@ -1,1 +1,0 @@
-import{_ as e,h as t}from"./jsx-runtime-J90KEm6-.js";import{L as n}from"./Tournament-C0YfPZbj.js";var r=e(t(),1);function i(e){let t=(0,r.useMemo)(()=>[...new Set(e)].sort().join(`,`),[e]),[i,a]=(0,r.useState)(new Map);return(0,r.useEffect)(()=>{if(!t){a(new Map);return}let e=!1;return n(t.split(`,`)).then(t=>!e&&a(t)).catch(()=>void 0),()=>{e=!0}},[t]),i}export{i as t};
